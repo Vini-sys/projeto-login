@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body, html{
+body{
     background-image: linear-gradient(to bottom, #AECFE8, #4F88B0, #66AFE3);
     background-attachment: fixed;
 
@@ -19,8 +19,14 @@ body, html{
 main{
     display: block;
     margin: auto;
+    border-radius: 50%;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 main > section{
+
+    
   
     display: flex;
     flex-direction: row;
@@ -28,7 +34,10 @@ main > section{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    background-color: white;
+   
+    width: 70vw;
+   
+   
 
 
 
@@ -36,11 +45,16 @@ main > section{
 }
 
 div{
+    background-color: white;
     width: 500px;
     display: flex;
     flex-direction: column;
     padding: 10px;
     line-height: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100vw;
+    
 }
 
 
@@ -48,7 +62,8 @@ div{
     height: 40px;
     width: 400px;
    
-    border-radius: ;
+    background-color: #66afe359;
+    border: 1px solid rgba(0, 0, 0, 0.425);
  
    
 }
@@ -58,6 +73,8 @@ div{
     width: 400px;
     margin-top: 5px;
     margin-bottom: 5px;
+    background-color: #66afe359;
+    border: 1px solid rgba(0, 0, 0, 0.425);
    
 }
 
@@ -68,6 +85,12 @@ div{
     height: 35px;
     width: 400px ;
     margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#entrar:hover{
+    background-color: #4F88B0;
+    color: white;
 }
 
 #esquecer{
@@ -75,10 +98,19 @@ div{
 
    height: 35px;
    width: 400px ;
+   cursor: pointer;
+}
+
+#esquecer:hover{
+    background-color: #4F88B0;
+    color: white;
 }
 
 img{
     width: 500px;
+    border-radius: left 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     
     
 }
