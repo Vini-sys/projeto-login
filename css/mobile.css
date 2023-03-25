@@ -8,7 +8,7 @@
 }
 
 body, html{
-    background-color: rgba(119, 136, 153, 0.404);
+    background-color:  #171857a2;
     width: 100vw;
     height: 100vh;
 }
@@ -16,7 +16,7 @@ body, html{
 
 
 main{
-
+    display: block;
     position: relative;
     width: 100vw;
     height: 100vh;

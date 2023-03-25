@@ -1,45 +1,46 @@
 @charset "UTF 8";
 
-@media screen and (min-width: 760px) and (max-width: 940px) {
+@media screen and (min-width: 940px) and (max-width: 1400px) {
 
 
-
-
-    
     body, html{
         background-image: linear-gradient(to bottom, #6C6EDD, #171857a2, #9F9FD6);
         background-attachment: fixed;
     }
 
-    
-    
-    main > #login{
+    #login{
         display: flex;
-        flex-direction: row;
-        width: 600px;
-        height: 300px;
+        flex-direction: row-reverse;
+        width: 700px;
+        height: 400px;
     }
 
     #imagem{
-        background-image: url(../imagens/pexels-christina-morillo-1181325.jpg);
-        width: 600px;
-        height: 400px;
-        background-position: bottom center;
+
+        width: 900px;
+        height: 600px;
     }
 
-    #email {
+    #email{
         width: 400px;
+        
     }
 
     #senha{
         width: 400px;
+      
     }
 
     #entrar{
         width: 400px;
+
     }
 
     #esqueci{
         width: 400px;
     }
+
+    
+
+
 }
