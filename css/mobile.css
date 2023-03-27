@@ -40,6 +40,8 @@ main{
     width: 300px;
     height: 500px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
     
 }
 
@@ -98,9 +100,14 @@ main{
     color: white
 }
 
+
+form{
+    display: block;
+}
+
 #imagem{
 
-    
+    display: block;
     background-image: url(../imagens/pexels-christina-morillo-1181325.jpg);
 
     background-repeat: no-repeat;
