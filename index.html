@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/desktop.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -25,10 +26,18 @@
                 <h1>LOGIN</h1>
                 <p>Preecha suas informações no campo abaixo:</p>
                 <form action="cadastro.php" method="post">
-            
-                    <input id="email" type="email" name="email" id="idemail" placeholder="Digite seu email">
-                    
-                    <input id="senha" type="password" name="senha" id="idsenha" placeholder="Sua senha">
+
+
+                    <div class="campo">
+                        <label for="idemail"><span class="material-icons">person</span></label>
+                        <input id="email" type="email" name="email" id="idemail" placeholder="Digite seu email">
+                        
+                    </div>
+
+                    <div class="campo">
+                        <label for="idsenha"><span class="material-icons">vpn_key</span></label>
+                        <input id="senha" type="password" name="senha" id="idsenha" placeholder="Sua senha">
+                    </div>
                     
                     <input id="entrar" type="submit" value="Entrar">
                     

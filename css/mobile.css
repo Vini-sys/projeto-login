@@ -30,7 +30,7 @@ main{
 
 #login{
     display: block;
-    background-color: wheat;
+    background-color: rgb(204, 179, 245);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -45,6 +45,30 @@ main{
     
 }
 
+div.campo{
+    display: flex;
+    flex-direction:row ;
+    background-color: #171857a2;
+    border-radius: 10px;
+    line-height: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+    
+    
+    
+}
+
+label > span.material-icons {
+    padding-top: 15px;
+    padding-right: 10px;
+    height: 10px;
+    font-size:1.5em;
+    text-align: center;
+    width: 40px;
+
+
+}
+
 #cadastro{
     display: flex;
     flex-direction: column;
@@ -55,30 +79,40 @@ main{
 #email{
     
     margin-top: 10px;
-    width: 250px;
+    width: 217px;
     height: 50px;
     margin-bottom: 5px;
-    border-radius: 8px;
+    border-radius: 6px;
     overflow: hidden;
+    padding-right: 10px;
+    border: none;
+    margin: 0px;
+    
 }
+
+
 
 #senha{
     
     
-    width: 250px;
+    width: 217px;
     height: 50px;
     margin-bottom: 5px;
     border-radius: 8px;
     overflow: hidden;
+    padding-right: 20px;
+    border: none;
+    margin: 0px;
 }
 
 #entrar{
-    width: 250px;
+    width: 260px;
     height: 50px;
     margin-bottom: 5px;
     border-radius: 8px;
     overflow: hidden;
     cursor: pointer;
+    margin-top: 5px
 
 }
 
@@ -88,11 +122,13 @@ main{
 }
 
 #esqueci{
-    width: 250px;
+    width: 260px;
     height: 50px;
     margin-bottom: 5px;
     border-radius: 8px;
     overflow: hidden;
+    
+
 }
 
 #esqueci:hover{
